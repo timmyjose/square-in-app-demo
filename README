@@ -1,0 +1,16 @@
+Demo expo app of Squareup In-app payments SDK integration with Apple Pay and Google Pay 
+
+## Build & Run (Payments Server)
+
+```bash
+$ cd pkg/payments
+$ cargo run
+```
+
+## Build & Run (App)
+
+```bash
+$ cd app/packages/squire
+$ yarn setup --clean 
+$ yarn android --device (or yarn ios --device)
+```
